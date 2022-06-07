@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+jar {
+    baseName = 'shell-build'
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
